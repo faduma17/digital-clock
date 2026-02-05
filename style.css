@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0f172a
+    color white
+    font-family: Arial, sans-serif;
+
+}
+.container{
+    text-align: center;
+    background: #020617;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+
+}
+#cloclk{
+   font-size: 40px
+   margin 20px 0;
+
+}
+input, button{
+    padding: 10px;
+    margin: 5px;
+
+}
+    button{
+        cursor: pointer;
+    }
+#message{
+    margin-top: 10px;
+    color:#38bdf8;
+}
+   
