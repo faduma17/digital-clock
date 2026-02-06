@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Digital Clock</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Digital Clock Project</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="clock-container">
-        <h1>Digital Clock</h1>
-        <div id="clock">00:00:00 AM</div>
-        <div id="date">YYYY-MM-DD</div>
-        <button id="toggleFormatBtn">Toggle 12/24 Hour</button>
-    </div>
 
-    <script src="script.js"></script>
+  <h1>Digital Clock</h1>
+
+  <div id="clock">00:00:00</div>
+  <div id="date">Loading date...</div>
+
+  <div class="controls">
+    <label>
+      Time Format:
+      <select id="format">
+        <option value="">-- Select --</option>
+        <option value="24">24 Hour</option>
+        <option value="12">12 Hour</option>
+      </select>
+    </label>
+
+    <button id="themeBtn">Change Theme</button>
+  </div>
+
+  <p id="feedback"></p>
+
+  <script src="script.js"></script>
 </body>
 </html>
