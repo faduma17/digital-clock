@@ -1,33 +1,32 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: #1e1e1e;
-    color: #fff;
-    font-family: Arial, sans-serif;
-}
-
-.clock-container {
-    text-align: center;
-    background: #333;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: #0f0;
+  text-align: center;
+  padding-top: 50px;
 }
 
 #clock {
-    font-size: 50px;
-    margin: 20px 0;
+  font-size: 60px;
+  margin: 20px 0;
 }
 
-#date {
-    font-size: 20px;
-    margin-bottom: 20px;
+.controls {
+  margin-top: 20px;
 }
 
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+select, button {
+  padding: 8px;
+  margin: 5px;
+}
+
+#feedback {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* Light theme */
+.light {
+  background: #fff;
+  color: #000;
 }
